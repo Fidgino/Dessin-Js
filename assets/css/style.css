@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --blue: blue;
+    --green: green;
+    --yellow: yellow;
+    --orange: orange;
+    --pink: #E422B5;
+    --red: red;
+    --purple: purple;
+    --black: black;
+    --white: white;
+    --gray: #ECECEC;
+}
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 3vh;
+}
+.colorList {
+    display: flex;
+    width: 85vw;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.colorList button {
+    width: 9vw;
+    height: 4vh;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 1%;
+    border: black solid 2px;
+    border-radius: 7px;
+}
+#information {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+#zoom {
+    display: flex;
+    align-items: center;
+}
+#zoom button {
+    margin-left: 1vw;
+    height: 6vh;
+    width: 2.5vw;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#selectColor {
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+.actualColor {
+    width: 9vw;
+    height: 4vh;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+.resetButton {
+    height: 70px;
+    width: 70px;
+    border: black solid 1px;
+    margin-left: 2vw;
+    background-image: url(../images/resetIcon.png);
+    background-size: cover;
+}
+.blue {
+    color: var(--white);
+    background-color: var(--blue);
+}
+.green {
+    background-color: var(--green);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.orange {
+    background-color: var(--orange);
+}
+.pink {
+    background-color: var(--pink);
+}
+.red {
+    background-color: var(--red);
+}
+.purple {
+    background-color: var(--purple);
+}
+.black {
+    color: var(--white);
+    background-color: var(--black);
+}
+.white {
+    background-color: var(--white);
+}
+.buttonMoreColor {
+    background-color: var(--gray);
+}

@@ -41,3 +41,4 @@ resetButton.addEventListener('click', () => {
 validationColor.addEventListener('click', () => {
     
 })
+
